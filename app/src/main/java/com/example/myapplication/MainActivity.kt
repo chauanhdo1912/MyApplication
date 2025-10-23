@@ -34,9 +34,7 @@ class MainActivity : AppCompatActivity() {
 
 }
 
-private fun MainActivity.setOnClickListener() {
-    TODO("Not yet implemented")
-}
+
 
 
 
