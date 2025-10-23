@@ -18,12 +18,6 @@ class MainActivity : AppCompatActivity() {
         helloButton.setOnClickListener {
 
             onClick()
-            helloButton.setOnClickListener {
-                val helloButton = findViewById<Button>(R.id.Button)
-                helloButton.setText("Hello World")
-
-
-            }
 
 
         }
