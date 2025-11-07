@@ -1,9 +1,12 @@
 package com.example.myapplication
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.ButtonBarLayout
 
 
 class MainActivity : AppCompatActivity() {
@@ -12,27 +15,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main);
 
 
-        val helloButton = findViewById<Button>(R.id.Button)
-        helloButton.setText("Hello World")
-
-        helloButton.setOnClickListener {
-
-            onClick()
-
-
-        }
     }
-
-    private fun onClick() {
-        val helloButton1 = findViewById<Button>(R.id.Button)
-        helloButton1.setText("Welt")
-
-
-
-    }
-
 
 }
+
+
+
 
 
 
